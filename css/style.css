@@ -1,0 +1,323 @@
+body {
+    margin: 0;
+    font-family: arial;
+
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+
+
+}
+
+
+/*start head properities*/
+
+header div.contact p {
+    margin: 0;
+    float: left;
+
+}
+
+header div.contact p#right {
+    float: right
+}
+
+header div.contact p#right i {
+    margin-right: 20px;
+}
+
+header div.menu ul,
+footer div.foot ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+header div.menu ul li {
+    float: left;
+    margin: 20px;
+    text-transform: capitalize;
+    padding-right: 50px;
+    box-sizing: border-box;
+
+}
+
+header div.menu ul li.r {
+    float: right;
+}
+
+
+header img {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    float: left;
+    margin: 0 auto;
+}
+
+header div.hero {
+    height: 450px;
+    width: 100%;
+    background: url("../images/2.jpg") no-repeat;
+    background-size: cover;
+
+
+
+}
+
+header div.slider {
+    width: 100%;
+    height: 100%;
+
+    margin: 10px 0 30px;
+    border-top: 4px solid #f0591e;
+    background-color: rgba(0, 0, 0, 0.8);
+
+    color: #fff;
+
+
+}
+
+
+
+header .slider div.main {
+    float: left;
+}
+
+header .slider div.main h2 {
+    font-size: 50px;
+}
+
+* span {
+    color: #f0591e;
+}
+
+header .slider div.main p {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 100px;
+}
+
+header .slider div.main h6 {
+    font-size: 20px;
+}
+
+header .slider div.main button {
+    background: none;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    font-weight: bold;
+    color: #fff;
+}
+
+header div.slider div.regForm {
+    float: right;
+    box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.3);
+    border-top: 4px solid #f0591e;
+    width: 23%;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 20%;
+    right: 12%;
+    padding: 20px;
+    background: #fff;
+
+}
+
+header div.slider div.regForm h3 {
+    color: #333;
+}
+
+header div.slider div.regForm p {
+    color: #666;
+    letter-spacing: -1px;
+}
+
+header div.slider div.regForm form input[type="text"] {
+    border: none;
+    border-bottom: 2px solid #eee;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    margin: 10px;
+
+
+
+}
+
+header div.slider div.regForm form input[type="submit"] {
+    padding: 10px 50px;
+    background: #f0591e;
+    margin: 20px 0;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+}
+
+/*start head properities*/
+
+/*start main properities*/
+main div.about,
+main div.get {
+    margin: 80px auto;
+    text-align: center;
+
+}
+
+main div.about {
+    border-bottom: 1px solid #eee;
+}
+
+main div.about div.cen,
+main div.get div.cen {
+    width: 30%;
+    margin: 0 auto;
+
+}
+
+main div.about h3,
+main div.get h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+
+main div.about h3 span,
+main div.get h3 span {
+    border-bottom: 3px solid #f0591e;
+    padding-bottom: 10px;
+
+}
+
+main div.about p {
+    font-size: 14px;
+}
+
+main div.about h5 {
+    font-size: 16px;
+    letter-spacing: -0.5px;
+}
+
+main div.get div.box > div {
+    border: 2px solid #eee;
+    float: left;
+    width: 30.33%;
+    padding: 10px;
+    margin-left: 15px;
+    margin-bottom: 50px;
+
+    box-sizing: border-box;
+
+
+
+}
+
+main div.get div.box > div i {
+    padding-top: 20px;
+    font-size: 70px;
+    color: #f0591e;
+
+}
+
+main div.get div.box > div.active {
+    box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.3);
+    border: none;
+
+
+}
+
+main div.get div.box > div h4 {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+main div.get div.box > div p {
+    line-height: 20px;
+    text-indent: 45px;
+}
+
+footer .end {
+    background: #000;
+    color: #fff;
+}
+
+
+footer div.foot img {
+    display: block;
+    /*        margin-top: 20px;*/
+
+}
+
+footer div.end div.foot p {
+    float: left;
+    width: 50%;
+}
+
+footer div.foot ul {
+    float: right;
+
+    margin-top: 50px;
+}
+
+footer div.foot ul li {
+    display: inline;
+    margin-right: 10px;
+
+}
+
+footer div.end .e {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 30px;
+}
+
+footer div.end p#left i {
+    border: 1px solid #eee;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+
+}
+
+footer div.end button {
+    padding: 10px 20px;
+    border: 1px solid #eee;
+    margin: 10px;
+
+    background: none;
+    float: right;
+    color: #fff;
+}
+
+/*start main properities*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clearfix {
+    clear: both;
+}
